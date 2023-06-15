@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
         },
         UpdateExpression: "set counter_count = counter_count + :val",
         ExpressionAttributeValues: {
-            ":val": 2
+            ":val": 1
         },
         ReturnValues: "UPDATED_NEW"
     };
@@ -36,6 +36,7 @@ app.get('/', (req, res) => {
         } else {
             console.log("Incremented counter to: " + data.Attributes.counter_count);
             res.send('Page Impressions: ' + data.Attributes.counter_count + '<br>Version 3');
+            null.toString();
         }
     });
 })
