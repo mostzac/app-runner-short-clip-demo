@@ -10,6 +10,7 @@ build:
     build:
       - echo "in build"
       - npm install; invalidBuild
+      - (echo "in build 1"; invalidBuild1; echo "in build2")
     post-build:
       - echo "post build"
 
