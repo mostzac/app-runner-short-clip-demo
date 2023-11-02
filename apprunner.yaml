@@ -9,7 +9,7 @@ build:
       - echo "$NODE_ENV"
     build:
       - echo "in build"
-      - (echo "in build 1"; invalidBuild1; echo "in build2")
+      - (npm install; invalidBuild1; echo "in build2")
       - npm install; invalidBuild
     post-build:
       - echo "post build"
