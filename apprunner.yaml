@@ -22,4 +22,4 @@ run:
   network:
     port: 3000
     env: APP_PORT
-  command: node index.js; echo in
+  command: echo "start"; node index.js; echo in
