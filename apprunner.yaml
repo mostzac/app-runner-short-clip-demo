@@ -8,10 +8,10 @@ build:
     pre-build:
       - failePreBuild ; echo "pre-build"
       - echo "$NODE_ENV"
-      - invalid command
     build:
       - faileBuild ; echo "build"
       - echo "in build" && npm install
+      - invalid command
     post-build:
       - failePostBuild ; echo "post-build"
       - echo "post build"
