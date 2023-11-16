@@ -6,18 +6,18 @@ build:
       value: production
   commands:
     pre-build:
-      - failePreBuild ; echo "pre-build"
+      - echo "pre-build"
       - echo "$NODE_ENV"
     build:
-      - faileBuild ; echo "build"
+      - echo "build"
       - echo "inbuild" && npm install
     post-build:
-      - failePostBuild ; echo "post-build"
+      - echo "post-build"
       - echo "post build"
 
 run:
   pre-run:
-    - echo "running prerun"
+    - echo "runningprerun"
   env:
     - name: NODE_ENV
       value: production
