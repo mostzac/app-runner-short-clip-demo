@@ -17,7 +17,7 @@ build:
 
 run:
   pre-run:
-    - echo "running prerun"
+    - echo "runningprerun"
   env:
     - name: NODE_ENV
       value: production
