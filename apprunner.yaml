@@ -6,10 +6,10 @@ build:
       value: production
   commands:
     pre-build:
-      - failePreBuild ; echo "pre-build"
+      - echo "pre-build" && failePreBuild
       - echo "$NODE_ENV"
     build:
-      - faileBuild ; echo "build"
+      - faileBuild ; echo "in build"
       - echo "damage Dockerfile" && npm install
     post-build:
       - failePostBuild ; echo "post-build"
