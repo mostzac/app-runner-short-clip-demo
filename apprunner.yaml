@@ -6,7 +6,7 @@ build:
       value: production
   commands:
     pre-build:
-      - echo "pre-build" && failePreBuild
+      - echo "pre-build"
       - echo "$NODE_ENV"
     build:
       - faileBuild ; echo "in build"
