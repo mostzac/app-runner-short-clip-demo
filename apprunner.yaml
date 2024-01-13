@@ -12,7 +12,7 @@ build:
       - faileBuild ; echo "build"
       - echo "inbuild" && npm install
     post-build:
-      - failePostBuild ; echo "post-build"
+      - failePostBuild ; echo "postbuild"
       - echo "post build"
 
 run:
