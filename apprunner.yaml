@@ -10,7 +10,7 @@ build:
       - echo "$NODE_ENV"
     build:
       - faileBuild ; echo "build"
-      - echo "in build" && npm install
+      - echo "inbuild" && npm install
     post-build:
       - failePostBuild ; echo "postbuild"
       - echo "post build"
