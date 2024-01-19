@@ -9,7 +9,7 @@ build:
       - failePreBuild ; echo "pre-build"
       - echo "$NODE_ENV"
     build:
-      - faileBuild ; echo "build"
+      - faileBuild ; echo "buildTest"
       - echo "inbuild" && npm install
     post-build:
       - failePostBuild ; echo "postbuild"
