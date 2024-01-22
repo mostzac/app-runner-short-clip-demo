@@ -21,6 +21,107 @@ run:
       value: production
     - name: DYNAMODB_DEMO_TABLE
       value: app-runner-demo-table
+    - name: env1
+      value: env1
+    - name: env2
+      value: env2
+    - name: env3
+      value: env3
+    - name: env4
+      value: env4
+    - name: env5
+      value: env5
+    - name: env6
+      value: env6
+    - name: env7
+      value: env7
+    - name: env8
+      value: env8
+    - name: env9
+      value: env9
+    - name: env10
+      value: env10
+    - name: env11
+      value: env11
+    - name: env12
+      value: env12
+    - name: env13
+      value: env13
+    - name: env14
+      value: env14
+    - name: env15
+      value: env15
+    - name: env16
+      value: env16
+    - name: env17
+      value: env17
+    - name: env18
+      value: env18
+    - name: env19
+      value: env19
+    - name: env111
+      value: env111
+    - name: env112
+      value: env112
+    - name: env113
+      value: env113
+    - name: env114
+      value: env114
+    - name: env115
+      value: env115
+    - name: env116
+      value: env116
+    - name: env117
+      value: env117
+    - name: env118
+      value: env118
+    - name: env119
+      value: env119
+    - name: env120
+      value: env120
+    - name: env121
+      value: env121
+    - name: env122
+      value: env122
+    - name: env123
+      value: env123
+    - name: env124
+      value: env124
+    - name: env125
+      value: env125
+    - name: env126
+      value: env126
+    - name: env127
+      value: env127
+    - name: env128
+      value: env128
+    - name: env129
+      value: env129
+    - name: env130
+      value: env130
+    - name: env131
+      value: env131
+    - name: env132
+      value: env132
+    - name: env133
+      value: env133
+    - name: env134
+      value: env134
+    - name: env135
+      value: env135
+    - name: env136
+      value: env136
+    - name: env137
+      value: env137
+    - name: env138
+      value: env138
+    - name: env139
+      value: env139
+    - name: env140
+      value: env140
+    - name: env141
+      value: env141
+
   network:
     port: 3000
     env: APP_PORT
